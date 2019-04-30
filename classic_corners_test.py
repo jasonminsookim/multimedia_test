@@ -139,4 +139,4 @@ cct.game_loop()
 print("Total Iterations: %d " % cct.total_iter)
 print("Total Yellow Circles: %d" % cct.total_yellows)
 print("Total Correctly Clicked Circles: %d" % cct.yellows_correctly_clicked)
-
+print("Total Incorrectly Clicked Circles: %d" % cct.incorrectly_clicked)
