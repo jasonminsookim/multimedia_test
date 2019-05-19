@@ -49,7 +49,7 @@ class ClassicCornersTest:
     WIDTH = SCREEN.get_width()
     HEIGHT = SCREEN.get_height()
     TIME_INTERVAL = 1  # seconds
-    MAX_ITER = 10   #
+    MAX_ITER = 60 * 15   # 15 minute test
 
     def __init__(self):
         pygame.init()
